@@ -1,0 +1,17 @@
+{
+  "name": "esmock-sourcemap-bug",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "tsc && node --test index.test.js && node --test --enable-source-maps index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.10.2",
+    "esmock": "^2.6.9",
+    "typescript": "^5.7.2"
+  }
+}
